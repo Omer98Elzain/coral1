@@ -1,0 +1,37 @@
+body{
+font-family:"Roboto", sans-serif;
+     background-image: url('images/Hotel%20exterior.webp');
+     background-repeat:no-repeat;
+     background-size:cover;
+    height: auto
+    
+}
+buttom{
+    
+    padding: 30px 0 30px;
+    text-align: center;
+    text-decoration-color: burlywood
+}
+
+.gallery{
+    padding: 10px 30px;
+    
+    
+}
+
+.gallery img{
+    
+    width: 230px;
+    padding: 10px;
+    
+    filter: drop-shadow(2px 4px 6px black);
+    transition: 1s;
+    
+}
+
+.gallery img:hover{
+    
+   filter: grayscale(0%);
+    transform: scale(1.1);
+    
+}
